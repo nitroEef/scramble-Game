@@ -54,8 +54,10 @@ h5{
 
 
 
-.timeleft{
-    color:red
+
+
+.timeleft span{
+   color: red
 }
 .text-center{
     margin-top: 3rem;
