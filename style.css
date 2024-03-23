@@ -45,6 +45,15 @@ h5{
     color:white;
 }
 
+.text-center {
+    font-size: 1.5rem;
+    color:white;
+    letter-spacing: 1rem;
+    font-weight: 700;
+}
+
+
+
 .timeleft{
     color:red
 }
