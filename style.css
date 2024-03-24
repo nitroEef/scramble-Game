@@ -36,11 +36,14 @@ h5{
     font-size: 1.4rem;
     text-align: center;
     margin-top: 2rem;
+}
 
-
+input{
+    width: 430px; 
+    height:45px
 }
 .hint{
-    padding:1rem 3rem;
+    padding:0.5rem 3rem;
     font-size: 1.2rem;
     color:white;
     text-align: center;
@@ -99,13 +102,88 @@ input[type=text]
 
 .btn{
     cursor: pointer;
-    background:linear-gradient(rgb(0, 0, 0),rgb(212, 209, 209),white,rgb(218, 218, 215),rgb(112, 170, 215));
+    background:radial-gradient(rgb(188, 231, 245),rgb(112, 170, 215));
     width:9rem;
     font-size:15px;
     font-weight: 550;
     height: 2.2rem;
     color:rgb(25, 25, 25);
     border-bottom-left-radius: 25%;
-    box-shadow: 2px 2px 2px 0 rgb(236, 233, 233);
+    box-shadow: 2px 2px 2px 0 rgb(128, 184, 236);
+
+}
+
+.btn:hover{
+    background: #fff;
+    color:grey;
+}
+
+@media screen and (max-width:543px) {
+    .house{
+        width:27rem;
+    height: 27rem;
+    }
+
+    input{
+        width:330px;
+    }
+}
+
+@media screen and (max-width:445px) {
+    .house{
+        width:23rem;
+    height: 27rem;
+    }
+
+    input{
+        width:280px;
+    }
+
+    .text-center {
+        font-size: 1.36rem;
+        letter-spacing: 1px;
+    }
+
+    h5{
+        font-size: 1rem;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .btn{
+        width:7rem
+    }
+
+}
+
+
+@media screen and (max-width:388px) {
+    .house{
+        width:19rem;
+    height: 25rem;
+    }
+
+    input{
+        width:260px;
+    }
+
+    .text-center {
+        font-size: 1.6rem;
+        letter-spacing: 1px;
+    }
+
+    h5{
+        font-size: 1rem;
+        text-align: center;
+        margin-top:0.5rem;
+    }
+
+    .btn{
+        width:7rem
+    }
+
+    .secondMargin{
+        margin-top:2rem;
+    }
 
 }
