@@ -47,10 +47,11 @@ h5{
 }
 .timeleft{
     text-align: left;
+    color: rgb(142, 192, 236);
 }
 
 .text-center {
-    font-size: 1.5rem;
+    font-size: 1.76rem;
     color:white;
     letter-spacing: 1rem;
     font-weight: 700;
