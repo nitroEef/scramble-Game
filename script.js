@@ -55,10 +55,7 @@ function scrambleWord(word) {
 // It then swaps the characters at indices i and junior, 
 // effectively shuffling the characters randomly.
     return array.join("");
-//     The join method is used to concatenate the characters
-//      of the array back into a single string.
-// The characters are joined without any separator,
-//  resulting in the scrambled version of the original word.
+//     T 
 }
 
 // Scramble the words in the array
@@ -140,15 +137,15 @@ clearInterval(timer);
 // is less than or equal to zero. If it is, it executes the code block under the if statement. 
 // Otherwise, it executes the code block under the else statement
 
-If the time left is not zero or negative:
-It decrements the timeLeft variable by one.
-It updates the text content of the timeLeftElement
- (presumably an HTML element displaying the remaining time) 
-to show the updated time left in seconds In summary, the 
-updateTimeLeft function manages the countdown timer for the game.
- It decrements the time left every second and triggers actions 
- when the time runs out, such as disabling input, stopping the timer,
-  alerting the user, and starting a new round.
+// If the time left is not zero or negative:
+// It decrements the timeLeft variable by one.
+// It updates the text content of the timeLeftElement
+//  (presumably an HTML element displaying the remaining time) 
+// to show the updated time left in seconds In summary, the 
+// updateTimeLeft function manages the countdown timer for the game.
+//  It decrements the time left every second and triggers actions 
+//  when the time runs out, such as disabling input, stopping the timer,
+//   alerting the user, and starting a new round.
 
 
 
