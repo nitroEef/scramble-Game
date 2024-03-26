@@ -121,7 +121,7 @@ clearInterval(timer);
 //  function every second (1000 milliseconds).
 
     currentWordIndex++;
-    // It increments the currentWordIndex to move to the
+    // It increments the currentWordIndex to move to the...
     //  next word in the words array for the next round.
 
 }
