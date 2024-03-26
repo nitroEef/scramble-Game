@@ -11,16 +11,18 @@ body{
     justify-content: center;
     align-items: center;
     color: rgb(142, 192, 236);
-    background-color: rgb(181, 216, 246);
+    background:url(image/pexels-cliford-mervil-2469122.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
 }
 
 .house{
-    background-color: rgb(13, 12, 12);
+    background-color: rgba(255, 255, 255, 0.902);
     width:33rem;
     height: 27rem;
-    border-top-left-radius: 11%;
+    color:black;
     border-bottom-right-radius: 11%;    ;
-    box-shadow: 3px 4px 6px 2px  rgb(89, 127, 158);
+    box-shadow: 0 1px 0 2px  white;
    ;
     
 }
@@ -28,14 +30,20 @@ body{
 h1{
     font-size: 2rem;
     text-align: center;
-    margin-top: 1rem;
+    background-color:black;
+    color:white;
+    box-shadow: 0 1px 0 2px  black;
+    
+    padding:1rem;
+   
 
 }
 
 h5{
     font-size: 1.4rem;
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
+    font-weight: 300;
 }
 
 input{
@@ -45,19 +53,25 @@ input{
 .hint{
     padding:0.5rem 3rem;
     font-size: 1.2rem;
-    color:white;
+    color:rgba(19, 19, 19, 0);
     text-align: center;
 }
+
+.line{
+    color:black;
+}
+
 .timeleft{
     text-align: left;
-    color: rgb(142, 192, 236);
+    color: rgb(10, 11, 11);
 }
 
 .text-center {
     font-size: 1.76rem;
-    color:white;
+    color: rgb(142, 192, 236);
+    
     letter-spacing: 1rem;
-    font-weight: 700;
+    font-weight: 900;
 }
 
 
@@ -102,8 +116,9 @@ input[type=text]
 
 .btn{
     cursor: pointer;
-    background:radial-gradient(rgb(188, 231, 245),rgb(112, 170, 215));
+    background:linear-gradient(black, white,white,white,white,white,white,white,black);
     width:9rem;
+    opacity:65%;
     font-size:15px;
     font-weight: 550;
     height: 2.2rem;
