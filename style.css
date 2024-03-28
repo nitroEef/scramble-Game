@@ -61,6 +61,22 @@ input{
 
 }
 
+.timeAndScore{
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.score{
+    font-size: 1.4rem;
+    padding-right:4rem;
+    /* padding-bottom: 2rem; */
+}
+
+.scoreValue{
+    color: rgb(1, 75, 141);
+    font-weight: 600;
+}
 .line{
     color:black;
 }
@@ -101,7 +117,7 @@ input{
     display: flex;
     border-radius: 7px;
    background-color: white;
-    box-shadow: 1px  1px 1px rgb(101, 130, 195);
+    box-shadow:  1px 1px rgb(101, 130, 195);
 }
 
 input[type=text]
