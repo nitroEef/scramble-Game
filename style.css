@@ -51,7 +51,8 @@ h5{
 
 input{
     width: 430px; 
-    height:45px
+    height:45px;
+    border:2px solid rgb(1, 75, 141);
 }
 .hint{
     padding:0.5rem 3rem;
@@ -100,21 +101,21 @@ input{
     display: flex;
     border-radius: 7px;
    background-color: white;
-    /* bbox-shadow: 2px 4px 4px 1px rgb(132, 129, 129); */
+    box-shadow: 1px  1px 1px rgb(101, 130, 195);
 }
 
 input[type=text]
 {
     color:#000;
     font-size: 1rem;
-    font-weight:900;
+    font-weight:700;
 }
 
-.input::placeholder{
+/* .input::placeholder{
     color: rgb(1, 75, 141);
 
     
-}
+} */
 .pb-5{
     margin-top: 1rem;
 }
