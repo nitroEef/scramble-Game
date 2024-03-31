@@ -1,4 +1,3 @@
-
 *{
     margin: 0;
     padding:0;
@@ -58,8 +57,19 @@ input{
     padding:0.5rem 3rem;
     font-size: 1.2rem;
     text-align: center;
-
+    color:rgb(1, 75, 141);
+    
 }
+
+.time{
+    padding:0.5rem 3rem;
+    font-size: 1.2rem;
+    text-align: center;
+    color:rgb(1, 75, 141);
+    
+}
+
+
 
 .timeAndScore{
     display:flex;
@@ -77,9 +87,6 @@ input{
     color: rgb(1, 75, 141);
     font-weight: 600;
 }
-.line{
-    color:black;
-}
 
 .timeleft{
     text-align: left;
@@ -87,9 +94,11 @@ input{
     font-weight: 400;
 }
 
-.text-center {
+.real {
     font-size: 1.76rem;
     color: rgb(1, 75, 141);
+    text-align: center;
+    margin-top: 2rem;
     
     letter-spacing: 14px;
     font-weight: 900;
@@ -271,8 +280,3 @@ input[type=text]
         bottom:2rem
     }
 
-/* }
-    /* background-image: linear-gradient(to left, violet, indigo, green, blue, yellow, orange, red);
-        -webkit-background-clip: text;
-        -moz-background-clip: text;
-        background-clip: text; */ */
