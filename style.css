@@ -230,11 +230,24 @@ input[type=text]
     }
 
     h5{
-        font-size: 1rem;
+        font-size: 14px;
         text-align: center;
         margin-top:0.5rem;
     }
 
+    .time{
+        font-size: 13px;
+        margin-right:1rem
+    }
+    .timeleft span{
+        font-size: 11px;
+        
+     }
+
+     .score{
+        font-size: 13px;
+
+     }
     .btn{
         width:7rem;
         margin-bottom: 2rem;
