@@ -110,6 +110,7 @@ submitButton.addEventListener("click", function () {
     }
 });
 
+
 // Event listener for shuffle button
 shuffleButton.addEventListener("click", newRound);
 
