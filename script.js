@@ -11,7 +11,7 @@ let currentWord = "";
 
 let timeLeft = 30;
 let timer; 
-let score = 0; // Added score variable
+let score = 0; 
 
 
 // List of words to choose from
